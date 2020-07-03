@@ -1,0 +1,16 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+  background-color: #F3F5F6;
+}
+.card-title {
+    margin-bottom: 1px;
+}
+
+.card:hover {
+    border: 1px solid rgba(0, 174, 249, 1);
+}
+
+
+
