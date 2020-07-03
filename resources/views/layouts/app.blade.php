@@ -61,7 +61,7 @@
         </ul>
         <a href="cart/" class="btn btn-primary my-2">
             <i class="fa fa-cart-plus"></i>
-            Mi Carrito({{App\Carrito::all()->count()}})
+            Mi Carrito({{App\Carrito::all()->sum('cantidad')}})
         </a>
     </div>
 </nav>
